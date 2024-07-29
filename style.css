@@ -1,0 +1,42 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #fc5260;
+}
+
+.container {
+    background-color: pink;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 10px;
+    font-size: 24px;
+    text-align: left;
+    font-family: sans-serif;
+}
+
+textarea {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+    resize: none;
+}
+
+.counter {
+    display: flex;
+    justify-content: space-between;
+}
+
+.counter span {
+    font-size: 16px;
+}
